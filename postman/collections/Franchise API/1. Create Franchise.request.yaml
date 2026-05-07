@@ -1,0 +1,11 @@
+$kind: http-request
+name: 1. Create Franchise
+url: "{{baseUrl}}/api/v1/franchises"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Ferrari"
+    }
+order: 1000

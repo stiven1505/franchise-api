@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/franchises/{{franchiseId}}/branches"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Sucursal Norte"
+    }
+order: 2000

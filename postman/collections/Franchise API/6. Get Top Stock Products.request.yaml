@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/franchises/{{franchiseId}}/top-stock-products"
+method: GET
+order: 6000

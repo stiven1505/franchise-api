@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/franchises/{{franchiseId}}/name"
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "name": "McDonald's Corporation"
+    }
+order: 7000

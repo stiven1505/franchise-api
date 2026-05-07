@@ -1,0 +1,11 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/franchises/{{franchiseId}}/branches/{{branchId}}/products"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "name": "Big Mac",
+        "stock": 100
+    }
+order: 3000

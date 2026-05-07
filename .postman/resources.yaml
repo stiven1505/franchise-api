@@ -1,0 +1,7 @@
+# Use this workspace to collaborate
+workspace:
+  id: d7c04ebf-8679-4709-8ccb-a3b17b018706
+
+localResources:
+  collections:
+    - ..\franchise-api.postman_collection.json

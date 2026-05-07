@@ -1,0 +1,10 @@
+$kind: http-request
+url: "{{baseUrl}}/api/v1/franchises/{{franchiseId}}/branches/{{branchId}}/products/{{productId}}/stock"
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "stock": 250
+    }
+order: 5000
